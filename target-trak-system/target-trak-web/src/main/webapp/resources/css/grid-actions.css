@@ -1,0 +1,17 @@
+.x-action-col-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.edit-icon {
+    height: 14px;
+    width: 14px;
+    background-image: url(../images/edit-icon.png) ! important;
+}
+
+.delete-icon {
+    height: 14px;
+    width: 14px;
+    background-image: url(../images/delete-icon.png) ! important;
+}

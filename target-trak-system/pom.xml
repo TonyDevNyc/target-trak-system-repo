@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.target.trak.system</groupId>
+	<artifactId>target-trak-system</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<spring.version>3.2.12.RELEASE</spring.version>
+		<spring.security.version>3.2.5.RELEASE</spring.security.version>
+		<jmock.version>2.6.0</jmock.version>
+		<junit.version>4.8.1</junit.version>
+		<log4j.version>1.2.17</log4j.version>
+	</properties>
+	<modules>
+		<module>target-trak-data-access</module>
+		<module>target-trak-domain</module>
+		<module>target-trak-business</module>
+		<module>target-trak-security-domain</module>
+		<module>target-trak-security-data-access</module>
+		<module>target-trak-security</module>
+		<module>target-trak-web</module>
+	</modules>
+</project>
